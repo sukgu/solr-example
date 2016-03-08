@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="rectangle" class="com.sushil.myapp.Rectangle"></bean>
+	<bean id="rectangle1" class="com.sushil.myapp.Rectangle">
+		<constructor-arg index="0" name="length" value="10"/>
+		<constructor-arg index="1" name="width" value="10"/>
+	</bean>
+	<bean id="circle" class="com.sushil.myapp.Circle"></bean>
+	<bean id="circle1" class="com.sushil.myapp.Circle">
+		<constructor-arg index="0" name="radius" value="10"/>
+	</bean>
+	<bean id="square" class="com.sushil.myapp.Square"></bean>
+	<bean id="square1" class="com.sushil.myapp.Square">
+		<constructor-arg index="0" name="length" value="20"/>
+	</bean>
+
+</beans>
