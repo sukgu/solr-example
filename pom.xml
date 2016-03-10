@@ -32,7 +32,13 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
-				
+		<!-- Solr -->
+		<dependency>
+	        <groupId>org.springframework.data</groupId>
+	        <artifactId>spring-data-solr</artifactId>
+	        <version>1.5.4.RELEASE</version>
+    	</dependency>
+    	
 		<!-- AspectJ -->
 		<dependency>
 			<groupId>org.aspectj</groupId>
