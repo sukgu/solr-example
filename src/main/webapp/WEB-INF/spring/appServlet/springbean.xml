@@ -15,5 +15,8 @@
 	<bean id="square1" class="com.sushil.myapp.Square">
 		<constructor-arg index="0" name="length" value="20"/>
 	</bean>
+	
+	<bean id="applicationContextProvder"
+                        class="com.sushil.myapp.ApplicationContextProvider"/>
 
 </beans>

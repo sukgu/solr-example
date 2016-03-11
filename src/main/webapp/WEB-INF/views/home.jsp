@@ -10,5 +10,10 @@
 </h1>
 
 <P>  The time on the server is ${serverTime}. </P>
+<P>  The uRStatus on the solr is ${uRStatus}. </P>
+<P>  The solrToString on the solr is ${solrToString}. </P>
+
+<a href = "search">Search</a>
+
 </body>
 </html>
